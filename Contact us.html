@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Beach Café</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        background-color: #c1ac9dcf;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      header {
+        background-color: bisque;
+        text-align: center;
+      }
+
+      #h1 {
+        margin: 0;
+        height: 10vh;
+        padding: 10px;
+        font-size: 30px;
+      }
+
+      /* ---------------- Start of Navbar ---------------- */
+
+      nav {
+        display: flex;
+        background-color: #e3c49d;
+        height: 50px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        flex-grow: 1.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav a:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #333;
+        transition: background-color 0.6s;
+      }
+
+      .contact2 {
+        background-color: #333;
+      }
+
+      @media (max-width: 600px) {
+        nav {
+          flex-direction: column;
+          height: 200px;
+        }
+      }
+
+      /* ---------------- End of Navbar ---------------- */
+
+      /* ---------------- Start of Main ---------------- */
+
+      .contact {
+        text-align: center;
+        font-size: 38px;
+      }
+
+      h2 {
+        padding-left: 150px;
+        padding-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      p {
+        padding-left: 150px;
+        font-size: 20px;
+        color: #b2881e;
+      }
+
+      .locateP {
+        color: black;
+      }
+
+      img {
+        height: 500px;
+        margin-left: 150px;
+      }
+
+      p > a {
+        text-decoration: none;
+        color: #b2881e;
+      }
+
+      p > a:hover {
+        text-decoration: underline;
+      }
+
+      #face {
+        font-size: 40px;
+        padding-left: 150px;
+        color: #b2881e;
+      }
+
+      #insta,
+      #twit,
+      #tiktok {
+        font-size: 40px;
+        padding-left: 20px;
+        color: #b2881e;
+      }
+
+      @media (max-width: 600px) {
+        img {
+          height: 150px;
+          margin-left: 60px;
+        }
+
+        h2 {
+          padding-left: 60px;
+        }
+
+        p {
+          padding-left: 60px;
+        }
+
+        #face {
+          padding-left: 60px;
+        }
+      }
+
+      /* ---------------- End of Main ---------------- */
+
+      /* ---------------- Start of Footer ---------------- */
+
+      footer {
+        text-align: center;
+        margin-bottom: 0;
+        background-color: #565151;
+        height: 40px;
+        line-height: 40px;
+        color: white;
+      }
+
+      /* ---------------- End of Footer ---------------- */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="h1">Beach Café</h1>
+
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./Gallery.html">Gallery</a>
+        <a href="./Menu.html">Menu</a>
+        <a href="./About us.html">About us</a>
+        <a class="contact2" href="./Contact us.html">Contact us</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="contact">Contact us</h1>
+
+      <h2 id="location">Location</h2>
+      <p class="locateP">2nd Avenu</p>
+      <p class="locateP">New York, USA</p>
+      <div>
+        <img src="./Beach Café location.png" alt="Beach Café location" />
+      </div>
+
+      <h2>Contact us</h2>
+      <p style="color: #b2881e">Our phone number: +1 056 338 5571</p>
+      <p><a href="mailto:ahmedbar2010@beachcafe.com">Send us an e-mail</a></p>
+
+      <h2>Hot Delivery</h2>
+      <p>Our hotline: 1412</p>
+
+      <h2>Social media</h2>
+      <i class="bi bi-facebook" id="face"></i>
+      <i class="bi bi-instagram" id="insta"></i>
+      <i class="bi bi-twitter-x" id="twit"></i>
+      <i class="bi bi-tiktok" id="tiktok"></i>
+      <p>You can follow us there and see everything coming new</p>
+    </main>
+
+    <footer>&copy; 2024 Beach Café | All rights reserved</footer>
+  </body>
+</html>

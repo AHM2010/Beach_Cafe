@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Beach Café</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      background-color: #c1ac9dcf;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    header {
+      background-color: bisque;
+      text-align: center;
+    }
+
+    #h1 {
+      margin: 0;
+      height: 10vh;
+      padding: 10px;
+      font-size: 30px;
+    }
+
+    /* ---------------- Start of Navbar ---------------- */
+
+    nav {
+      display: flex;
+      background-color: #e3c49d;
+      height: 50px;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+      flex-grow: 1.5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav a:hover {
+      background-color: #333;
+      transition: background-color 0.6s;
+    }
+
+    .about {
+      background-color: #333;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        height: 200px;
+      }
+    }
+
+    /* ---------------- End of Navbar ---------------- */
+
+    /* ---------------- Start of Main ---------------- */
+
+    .introduction {
+      text-align: center;
+      font-size: 38px;
+    }
+
+    h2 {
+      padding-left: 30px;
+    }
+
+    p {
+      font-size: larger;
+      padding-left: 30px;
+    }
+
+    /* ---------------- End of Main ---------------- */
+
+    /* ---------------- Start of Footer ---------------- */
+
+    footer {
+      text-align: center;
+      margin-top: 219px;
+      background-color: #565151;
+      height: 40px;
+      line-height: 40px;
+      color: white;
+    }
+
+    /* ---------------- End of Footer ---------------- */
+  </style>
+  <body>
+    <header>
+      <h1 id="h1">Beach Café</h1>
+
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./Gallery.html">Gallery</a>
+        <a href="./Menu.html">Menu</a>
+        <a class="about" href="./About us.html">About us</a>
+        <a href="./Contact us.html">Contact us</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="introduction">About Beach Café USA</h1>
+
+      <p>
+        Beach Café is a limited company in USA since 2000 and specialized in all
+        types of coffees, desserts, donuts and breakfast sandwiches.
+      </p>
+
+      <h2>Our history</h2>
+      <p>
+        New York is where it all started and ever since we have been serving our
+        fresh products across the United States.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        Since 2000 we still on the road to get our target and cover all states
+        in the USA and be one of the most famous franchise in the world.
+      </p>
+    </main>
+
+    <footer>&copy; 2024 Beach Café | All rights reserved</footer>
+  </body>
+</html>

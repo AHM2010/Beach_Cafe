@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Beach Café</title>
+    <style>
+      body {
+        background-color: #c1ac9dcf;
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* ---------------- Start of Navbar ---------------- */
+
+      header {
+        background-color: bisque;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        height: 10vh;
+        padding: 10px;
+        font-size: 30px;
+      }
+
+      nav {
+        display: flex;
+        background-color: #e3c49d;
+        height: 50px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        flex-grow: 1.5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav a:hover {
+        background-color: #333;
+        transition: background-color 0.6s;
+      }
+
+      .gallery {
+        background-color: #333;
+      }
+
+      @media (max-width: 600px) {
+        nav {
+          flex-direction: column;
+          height: 200px;
+        }
+      }
+
+      /* ---------------- End of Navbar ---------------- */
+
+      /* ---------------- Start of Main ---------------- */
+
+      div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      img {
+        height: 370px;
+        margin-top: 20px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 600px) {
+        div {
+          display: flex;
+          flex-direction: column;
+        }
+
+        img {
+          height: 220px;
+          padding-left: 20px;
+        }
+      }
+
+      /* ---------------- End of Main ---------------- */
+
+      /* ---------------- Start of Footer ---------------- */
+
+      footer {
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 20px;
+        background-color: #565151;
+        height: 40px;
+        line-height: 40px;
+        color: white;
+      }
+
+      /* ---------------- End of Footer ---------------- */
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Beach Café</h1>
+
+      <nav>
+        <a href="./index.html">Home</a>
+        <a class="gallery" href="./Gallery.html">Gallery</a>
+        <a href="./Menu.html">Menu</a>
+        <a href="./About us.html">About us</a>
+        <a href="./Contact us.html">Contact us</a>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <img src="./French-Croissants-SM-2363.jpg" alt="" />
+        <img src="./download (1).jfif" alt="" />
+        <img src="./download (2).jfif" alt="" />
+        <img src="./home_cafe2_gallery3.jpg" alt="" />
+      </div>
+    </main>
+
+    <footer>&copy; 2024 Beach Café | All rights reserved</footer>
+  </body>
+</html>
